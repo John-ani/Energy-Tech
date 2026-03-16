@@ -10,11 +10,11 @@ Accurate electricity demand forecasting is essential for grid stability, energy 
 
 This project evaluates three machine learning approaches:
 
-Random Forest
+- Random Forest
 
-Gradient Boosting
+- Gradient Boosting
 
-Long Short-Term Memory (LSTM) neural networks
+- Long Short-Term Memory (LSTM) neural networks
 
 The research focuses on improving short-term load forecasting accuracy while quantifying the economic benefits for the UK electricity system.
 
@@ -22,15 +22,15 @@ The research focuses on improving short-term load forecasting accuracy while qua
 
 The key goals of this research are:
 
-Develop machine learning models for short-term electricity demand forecasting
+- Develop machine learning models for short-term electricity demand forecasting
 
-Compare performance of tree-based and deep learning models
+- Compare performance of tree-based and deep learning models
 
-Identify key predictors affecting electricity demand
+- Identify key predictors affecting electricity demand
 
-Quantify economic benefits of improved forecasting
+- Quantify economic benefits of improved forecasting
 
-Provide recommendations for grid operation and energy policy
+- Provide recommendations for grid operation and energy policy
 
 **Dataset**
 
@@ -42,28 +42,28 @@ Observations: 279,264 half-hourly records
 
 Features include:
 
-Electricity demand
+- Electricity demand
 
-Weather variables
+- Weather variables
 
-Renewable generation indicators
+- Renewable generation indicators
 
-Temporal features
+- Temporal features
 
-Lagged demand values
+- Lagged demand values
 
 **Models Implemented**
-Random Forest
+- Random Forest
 
-Baseline ensemble model used for demand prediction.
+- Baseline ensemble model used for demand prediction.
 
-Gradient Boosting
+- Gradient Boosting
 
-Improved performance using boosting techniques.
+- Improved performance using boosting techniques.
 
-LSTM Neural Network
+- LSTM Neural Network
 
-Deep learning model designed for time-series forecasting.
+- Deep learning model designed for time-series forecasting.
 
 **Results**
 Model	MAE	MAPE	R²
@@ -73,63 +73,63 @@ LSTM	318.54 MW	1.02%	0.9906
 
 Key findings:
 
-LSTM achieved 17.3% improvement over Random Forest
+- LSTM achieved 17.3% improvement over Random Forest
 
-Lag-48 demand identified as the most influential predictor
+- Lag-48 demand identified as the most influential predictor
 
-Renewable features contributed 22% of predictive importance
+- Renewable features contributed 22% of predictive importance
 
 **Economic Impact**
 
-Improved demand forecasting could deliver approximately:
+- Improved demand forecasting could deliver approximately:
 
-£5.1 million annual benefits
+- £5.1 million annual benefits
 
 Breakdown:
 
-Balancing cost reduction: £2.4M
+- Balancing cost reduction: £2.4M
 
-Reserve optimisation: £1.5M
+- Reserve optimisation: £1.5M
 
-Curtailment reduction: £1.2M
+- Curtailment reduction: £1.2M
 
-Projected benefits increase to £12–15M annually with 40% renewable penetration.
+- Projected benefits increase to £12–15M annually with 40% renewable penetration.
 
 **Technology Stack**
 
 Python
 
-TensorFlow / Keras
+- TensorFlow / Keras
 
-Scikit-learn
+- Scikit-learn
 
-Pandas
+- Pandas
 
-NumPy
+- NumPy
 
-Matplotlib / Seaborn
+- Matplotlib / Seaborn
 
 **Key Contributions**
 
-UK-specific demand forecasting validation
+- UK-specific demand forecasting validation
 
-Renewable energy feature engineering
+- Renewable energy feature engineering
 
-Quantified economic benefits of AI forecasting
+- Quantified economic benefits of AI forecasting
 
-Operational deployment framework for grid operators
+- Operational deployment framework for grid operators
 
 **Future Work**
 
-Potential extensions include:
+- Potential extensions include:
 
-Real-time forecasting pipelines
+- Real-time forecasting pipelines
 
-Integration with smart grid data
+- Integration with smart grid data
 
-Reinforcement learning for grid optimisation
+- Reinforcement learning for grid optimisation
 
-Forecasting under high renewable penetration scenarios
+- Forecasting under high renewable penetration scenarios
 
 **Author**
 
